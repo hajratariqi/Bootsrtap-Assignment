@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins", sans-serif !important;
+}
+nav li{
+    font-size: 18px;
+    padding-left: 3vw;
+}
+nav li> a{
+    color: black !important ;
+}
+nav img{
+    width: 140px;
+    object-fit: contain;
+}
+.row h1{
+    font-weight: bolder;
+    font-size:62px;
+}
+.row h1 p{
+    color: #9E9DA2;
+    font-size: 18px;
+}
+.main-logo{
+    width: 400px;
+    object-fit: contain;
+    float: right;
+}
+.getApp{
+    background-color: #75BF7A;
+    border-radius: 10px;
+}
+.section-para{
+font-size: 1.2rem !important;
+width: 226px !important;
+margin-right: 20vmax !important;
+}
+.section-para + input{
+    border: none;
+    width: 400px !important;
+    padding: 25px !important;
+    height: 55px !important;
+    border-radius: 0 10px;
+    margin-right: 20px !important;
+    margin-bottom: 2vmax;
+}
+.section-para + input::placeholder{
+    color: #dadada;
+}
+.row button{
+    border: none;
+    height: 55px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+    width: 250px !important;
+    padding: 10px !important;
+    background-color: black;
+    text-transform: uppercase;
+
+}
+/* our benifits section */
+.steps-box{
+    width: 80%;
+}
+.sec-heading{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+
+}
+.section-image {
+    float: inline-end;
+}
+.sec-heading > span{
+   color: #75BF7A;
+}
+.steps-count{
+    display: flex;
+    align-items: center;
+}
+.steps-count h1{
+   color: #75BF7A;
+   font-weight: 500;
+   font-size: 7vmax;
+}
+.steps-count h4{
+    width:190px;
+}
+.steps-text {
+    color:#9E9DA2;
+    width: 300px;
+}
+
+
+
+
+
+
+/* Be Our Friend */
+.our-support{
+    padding: 30px;
+    margin: 5% auto;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+}
+.our-support .col{
+    width: 200px;
+    margin: auto;
+}
+.our-support h6{
+
+}
+.our-support li{
+    color:#8B8BA5;
+    list-style-type: none;
+    font-weight: 200;
+    line-height: 30px;
+}
+footer > p{
+    color:#75BF7A;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width:990px) {
+    .section-image {
+        float: left !important;
+    }
+    .steps-box{
+        width: 95% !important;
+        margin: auto !important;
+    }
+    .row h1{
+        font-size:40px;
+    }
+}
