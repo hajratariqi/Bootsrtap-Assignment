@@ -66,7 +66,7 @@ width: 226px !important;
     border: none;
     height: 55px;
     color: white;
-    border-radius: 10px;
+    border-radius: 6px;
     font-weight: bolder;
     width: 250px !important;
     padding: 10px !important;
@@ -79,8 +79,8 @@ width: 226px !important;
     width: 80%;
 }
 .sec-heading{
-    text-transform: uppercase;
     font-weight: bold;
+    text-transform: uppercase;
     text-align: center;
 
 }
@@ -101,10 +101,11 @@ width: 226px !important;
 }
 .steps-count h4{
     width:190px;
+    font-weight: bolder;
 }
 .steps-text {
     color:#9E9DA2;
-    width: 300px;
+    width: 19vmax;
 }
 
 
@@ -120,7 +121,9 @@ width: 226px !important;
     border-bottom: 1px solid #dadada;
 }
 .our-support .col{
-   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 .our-support h6{
 
@@ -153,5 +156,8 @@ footer > p{
     }
     .main-logo > img{
         width: 320px;
+    }
+    .download-image{
+        width: 40%;
     }
 }
