@@ -21,28 +21,43 @@ nav img{
     color: #9E9DA2;
     font-size: 18px;
 }
-.main-logo{
-    width: 400px;
+.main-logo > img{
+    width: 420px;
     object-fit: contain;
     float: right;
+}
+.main-logo{
+    /* width: 100px !important; */
+}
+.intro-para{
+    color: #9E9DA2;
+    font-size: 20px;
+    margin-top: 4%;
+}
+.main-logo {
+    display: flex;
+    place-content: center;
 }
 .getApp{
     background-color: #75BF7A;
     border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-around;
+
 }
 .section-para{
 font-size: 1.2rem !important;
 width: 226px !important;
-margin-right: 20vmax !important;
 }
 .section-para + input{
     border: none;
-    width: 400px !important;
+    width: 550px !important;
     padding: 25px !important;
     height: 55px !important;
-    border-radius: 0 10px;
-    margin-right: 20px !important;
-    margin-bottom: 2vmax;
+    border-radius: 6px;
 }
 .section-para + input::placeholder{
     color: #dadada;
@@ -82,7 +97,7 @@ margin-right: 20vmax !important;
 .steps-count h1{
    color: #75BF7A;
    font-weight: 500;
-   font-size: 7vmax;
+   font-size: 99px;
 }
 .steps-count h4{
     width:190px;
@@ -105,8 +120,7 @@ margin-right: 20vmax !important;
     border-bottom: 1px solid #dadada;
 }
 .our-support .col{
-    width: 200px;
-    margin: auto;
+   
 }
 .our-support h6{
 
@@ -133,5 +147,11 @@ footer > p{
     }
     .row h1{
         font-size:40px;
+    }
+    .row button , .section-para + input{
+        width: 90% !important;
+    }
+    .main-logo > img{
+        width: 320px;
     }
 }
